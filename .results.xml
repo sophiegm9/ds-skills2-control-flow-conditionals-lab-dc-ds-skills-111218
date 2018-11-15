@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="4" time="0.380"><testcase classname="pytests.test_index" file="pytests/test_index.py" line="9" name="test_less_than_50" time="0.0007433891296386719"></testcase><testcase classname="pytests.test_index" file="pytests/test_index.py" line="14" name="test_is_it_hot" time="0.0005731582641601562"></testcase><testcase classname="pytests.test_index" file="pytests/test_index.py" line="19" name="test_day_of_the_week" time="0.0005767345428466797"></testcase><testcase classname="pytests.test_index" file="pytests/test_index.py" line="24" name="test_ends_with" time="0.0026803016662597656"><failure message="AssertionError: Remember to test whether the substring `on` is the same as the ending of `Python` and assign the correct value to the variable `ends_with`
-assert False == True">def test_ends_with():
-        assert ends_with is not None, &quot;Make sure to set up your conditional so that it re-assigns the value for `ends_with`&quot;
-        assert type(ends_with) == type(True), &quot;ends_with should be a boolean&quot;
-&gt;       assert ends_with == True, &quot;Remember to test whether the substring `on` is the same as the ending of `Python` and assign the correct value to the variable `ends_with`&quot;
-E       AssertionError: Remember to test whether the substring `on` is the same as the ending of `Python` and assign the correct value to the variable `ends_with`
-E       assert False == True
-
-pytests/test_index.py:28: AssertionError</failure></testcase></testsuite>
